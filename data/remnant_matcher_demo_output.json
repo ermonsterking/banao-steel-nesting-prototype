@@ -1,0 +1,100 @@
+{
+  "matches": [
+    {
+      "offcut_id": "OFF-PR-01",
+      "part_id": "PART-PR-01",
+      "eligible": true,
+      "score_remaining_area_mm2_or_length_mm": 386.0,
+      "reason": "fits_lengthwise"
+    },
+    {
+      "offcut_id": "OFF-PL-01",
+      "part_id": "PART-PL-01",
+      "eligible": true,
+      "score_remaining_area_mm2_or_length_mm": 585284.0,
+      "reason": "fits_normal"
+    }
+  ],
+  "unmatched_parts": [
+    {
+      "part_id": "PART-PL-03",
+      "reason": "no_eligible_remnant"
+    },
+    {
+      "part_id": "PART-PL-02",
+      "reason": "no_eligible_remnant"
+    }
+  ],
+  "rejected_candidate_examples": [
+    {
+      "offcut_id": "OFF-PL-01",
+      "part_id": "PART-PR-01",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "form_mismatch;material_grade_mismatch;profile_family_mismatch"
+    },
+    {
+      "offcut_id": "OFF-PL-02",
+      "part_id": "PART-PR-01",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "form_mismatch;material_grade_mismatch;profile_family_mismatch;project_transfer_not_authorised"
+    },
+    {
+      "offcut_id": "OFF-PL-03",
+      "part_id": "PART-PR-01",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "offcut_not_available;form_mismatch;material_grade_mismatch;profile_family_mismatch"
+    },
+    {
+      "offcut_id": "OFF-PL-01",
+      "part_id": "PART-PL-03",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "part_revision_not_released"
+    },
+    {
+      "offcut_id": "OFF-PL-02",
+      "part_id": "PART-PL-03",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "part_revision_not_released;project_transfer_not_authorised"
+    },
+    {
+      "offcut_id": "OFF-PL-03",
+      "part_id": "PART-PL-03",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "part_revision_not_released;offcut_not_available"
+    },
+    {
+      "offcut_id": "OFF-PL-02",
+      "part_id": "PART-PL-01",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "project_transfer_not_authorised"
+    },
+    {
+      "offcut_id": "OFF-PL-03",
+      "part_id": "PART-PL-01",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "offcut_not_available"
+    },
+    {
+      "offcut_id": "OFF-PL-02",
+      "part_id": "PART-PL-02",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "project_transfer_not_authorised"
+    },
+    {
+      "offcut_id": "OFF-PL-03",
+      "part_id": "PART-PL-02",
+      "eligible": false,
+      "score_remaining_area_mm2_or_length_mm": null,
+      "reason": "offcut_not_available"
+    }
+  ]
+}

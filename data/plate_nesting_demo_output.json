@@ -1,0 +1,315 @@
+{
+  "case_name": "Synthetic mixed-size rectangular plate batch",
+  "baseline": {
+    "method": "next_fit_shelf_baseline",
+    "stock": {
+      "width_mm": 1000,
+      "height_mm": 800,
+      "edge_trim_mm_each_side": 5,
+      "kerf_mm_assumption": 3
+    },
+    "input_piece_count": 13,
+    "placed_piece_count": 13,
+    "unplaced_part_ids": [],
+    "plates_used": 5,
+    "net_part_area_mm2_placed": 1584300.0,
+    "gross_stock_area_mm2": 4000000.0,
+    "area_yield_percent": 39.61,
+    "area_not_accounted_as_part_percent": 60.39,
+    "placements": [
+      {
+        "part_id": "P1",
+        "plate_number": 1,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 403.0,
+        "placed_height_mm_including_kerf": 183.0,
+        "orientation": "rotated",
+        "net_part_area_mm2": 72000.0
+      },
+      {
+        "part_id": "P2",
+        "plate_number": 1,
+        "x_mm": 0.0,
+        "y_mm": 183.0,
+        "placed_width_mm_including_kerf": 253.0,
+        "placed_height_mm_including_kerf": 203.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 50000.0
+      },
+      {
+        "part_id": "P3",
+        "plate_number": 1,
+        "x_mm": 253.0,
+        "y_mm": 183.0,
+        "placed_width_mm_including_kerf": 503.0,
+        "placed_height_mm_including_kerf": 153.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 75000.0
+      },
+      {
+        "part_id": "P4",
+        "plate_number": 1,
+        "x_mm": 0.0,
+        "y_mm": 386.0,
+        "placed_width_mm_including_kerf": 503.0,
+        "placed_height_mm_including_kerf": 333.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 165000.0
+      },
+      {
+        "part_id": "P5",
+        "plate_number": 1,
+        "x_mm": 503.0,
+        "y_mm": 386.0,
+        "placed_width_mm_including_kerf": 403.0,
+        "placed_height_mm_including_kerf": 283.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 112000.0
+      },
+      {
+        "part_id": "P6",
+        "plate_number": 2,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 183.0,
+        "placed_height_mm_including_kerf": 153.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 27000.0
+      },
+      {
+        "part_id": "P7",
+        "plate_number": 2,
+        "x_mm": 0.0,
+        "y_mm": 153.0,
+        "placed_width_mm_including_kerf": 253.0,
+        "placed_height_mm_including_kerf": 333.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 82500.0
+      },
+      {
+        "part_id": "P8",
+        "plate_number": 2,
+        "x_mm": 253.0,
+        "y_mm": 153.0,
+        "placed_width_mm_including_kerf": 333.0,
+        "placed_height_mm_including_kerf": 183.0,
+        "orientation": "rotated",
+        "net_part_area_mm2": 59400.0
+      },
+      {
+        "part_id": "P9",
+        "plate_number": 3,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 503.0,
+        "placed_height_mm_including_kerf": 383.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 190000.0
+      },
+      {
+        "part_id": "P10",
+        "plate_number": 3,
+        "x_mm": 503.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 383.0,
+        "placed_height_mm_including_kerf": 283.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 106400.0
+      },
+      {
+        "part_id": "P11",
+        "plate_number": 3,
+        "x_mm": 0.0,
+        "y_mm": 383.0,
+        "placed_width_mm_including_kerf": 353.0,
+        "placed_height_mm_including_kerf": 353.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 122500.0
+      },
+      {
+        "part_id": "P12",
+        "plate_number": 4,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 553.0,
+        "placed_height_mm_including_kerf": 503.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 275000.0
+      },
+      {
+        "part_id": "P13",
+        "plate_number": 5,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 553.0,
+        "placed_height_mm_including_kerf": 453.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 247500.0
+      }
+    ],
+    "important_limitations": [
+      "synthetic rectangular parts only",
+      "shelf heuristics, not globally optimal 2D nesting",
+      "kerf and trim are simplified approximations",
+      "no CNC release, grade/lot checks, complex geometry, grain constraints or production validation"
+    ]
+  },
+  "best_fit_decreasing": {
+    "method": "best_fit_decreasing_shelf",
+    "stock": {
+      "width_mm": 1000,
+      "height_mm": 800,
+      "edge_trim_mm_each_side": 5,
+      "kerf_mm_assumption": 3
+    },
+    "input_piece_count": 13,
+    "placed_piece_count": 13,
+    "unplaced_part_ids": [],
+    "plates_used": 3,
+    "net_part_area_mm2_placed": 1584300.0,
+    "gross_stock_area_mm2": 2400000.0,
+    "area_yield_percent": 66.01,
+    "area_not_accounted_as_part_percent": 33.99,
+    "placements": [
+      {
+        "part_id": "P12",
+        "plate_number": 1,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 553.0,
+        "placed_height_mm_including_kerf": 503.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 275000.0
+      },
+      {
+        "part_id": "P13",
+        "plate_number": 2,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 553.0,
+        "placed_height_mm_including_kerf": 453.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 247500.0
+      },
+      {
+        "part_id": "P9",
+        "plate_number": 3,
+        "x_mm": 0.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 503.0,
+        "placed_height_mm_including_kerf": 383.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 190000.0
+      },
+      {
+        "part_id": "P4",
+        "plate_number": 1,
+        "x_mm": 553.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 333.0,
+        "placed_height_mm_including_kerf": 503.0,
+        "orientation": "rotated",
+        "net_part_area_mm2": 165000.0
+      },
+      {
+        "part_id": "P11",
+        "plate_number": 2,
+        "x_mm": 553.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 353.0,
+        "placed_height_mm_including_kerf": 353.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 122500.0
+      },
+      {
+        "part_id": "P5",
+        "plate_number": 3,
+        "x_mm": 503.0,
+        "y_mm": 0.0,
+        "placed_width_mm_including_kerf": 403.0,
+        "placed_height_mm_including_kerf": 283.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 112000.0
+      },
+      {
+        "part_id": "P10",
+        "plate_number": 1,
+        "x_mm": 0.0,
+        "y_mm": 503.0,
+        "placed_width_mm_including_kerf": 383.0,
+        "placed_height_mm_including_kerf": 283.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 106400.0
+      },
+      {
+        "part_id": "P7",
+        "plate_number": 2,
+        "x_mm": 0.0,
+        "y_mm": 453.0,
+        "placed_width_mm_including_kerf": 253.0,
+        "placed_height_mm_including_kerf": 333.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 82500.0
+      },
+      {
+        "part_id": "P3",
+        "plate_number": 1,
+        "x_mm": 383.0,
+        "y_mm": 503.0,
+        "placed_width_mm_including_kerf": 503.0,
+        "placed_height_mm_including_kerf": 153.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 75000.0
+      },
+      {
+        "part_id": "P1",
+        "plate_number": 2,
+        "x_mm": 253.0,
+        "y_mm": 453.0,
+        "placed_width_mm_including_kerf": 403.0,
+        "placed_height_mm_including_kerf": 183.0,
+        "orientation": "rotated",
+        "net_part_area_mm2": 72000.0
+      },
+      {
+        "part_id": "P8",
+        "plate_number": 2,
+        "x_mm": 656.0,
+        "y_mm": 453.0,
+        "placed_width_mm_including_kerf": 333.0,
+        "placed_height_mm_including_kerf": 183.0,
+        "orientation": "rotated",
+        "net_part_area_mm2": 59400.0
+      },
+      {
+        "part_id": "P2",
+        "plate_number": 3,
+        "x_mm": 0.0,
+        "y_mm": 383.0,
+        "placed_width_mm_including_kerf": 253.0,
+        "placed_height_mm_including_kerf": 203.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 50000.0
+      },
+      {
+        "part_id": "P6",
+        "plate_number": 3,
+        "x_mm": 253.0,
+        "y_mm": 383.0,
+        "placed_width_mm_including_kerf": 183.0,
+        "placed_height_mm_including_kerf": 153.0,
+        "orientation": "normal",
+        "net_part_area_mm2": 27000.0
+      }
+    ],
+    "important_limitations": [
+      "synthetic rectangular parts only",
+      "shelf heuristics, not globally optimal 2D nesting",
+      "kerf and trim are simplified approximations",
+      "no CNC release, grade/lot checks, complex geometry, grain constraints or production validation"
+    ]
+  },
+  "plates_saved_in_this_synthetic_case": 2,
+  "not_a_client_result": true
+}

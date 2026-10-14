@@ -1,0 +1,111 @@
+{
+  "policy": {
+    "edge_trim_mm": 5,
+    "kerf_mm": 4,
+    "authorised_project_transfers": []
+  },
+  "offcuts": [
+    {
+      "offcut_id": "OFF-PL-01",
+      "form": "plate",
+      "material_grade": "S355",
+      "thickness_mm": 10,
+      "width_mm": 800,
+      "length_mm": 1200,
+      "profile_family": null,
+      "project_id": "P-101",
+      "status": "available",
+      "traceable": true
+    },
+    {
+      "offcut_id": "OFF-PL-02",
+      "form": "plate",
+      "material_grade": "S355",
+      "thickness_mm": 10,
+      "width_mm": 1000,
+      "length_mm": 1400,
+      "profile_family": null,
+      "project_id": "P-202",
+      "status": "available",
+      "traceable": true
+    },
+    {
+      "offcut_id": "OFF-PR-01",
+      "form": "profile",
+      "material_grade": "S275",
+      "thickness_mm": null,
+      "width_mm": null,
+      "length_mm": 2200,
+      "profile_family": "RHS-100x50",
+      "project_id": "P-101",
+      "status": "available",
+      "traceable": true
+    },
+    {
+      "offcut_id": "OFF-PL-03",
+      "form": "plate",
+      "material_grade": "S355",
+      "thickness_mm": 10,
+      "width_mm": 900,
+      "length_mm": 900,
+      "profile_family": null,
+      "project_id": "P-101",
+      "status": "hold",
+      "traceable": true
+    }
+  ],
+  "requirements": [
+    {
+      "part_id": "PART-PL-01",
+      "form": "plate",
+      "material_grade": "S355",
+      "thickness_mm": 10,
+      "width_mm": 500,
+      "length_mm": 700,
+      "profile_family": null,
+      "project_id": "P-101",
+      "revision_status": "released",
+      "traceable_spec": true,
+      "quantity": 1
+    },
+    {
+      "part_id": "PART-PL-02",
+      "form": "plate",
+      "material_grade": "S355",
+      "thickness_mm": 10,
+      "width_mm": 950,
+      "length_mm": 1300,
+      "profile_family": null,
+      "project_id": "P-101",
+      "revision_status": "released",
+      "traceable_spec": true,
+      "quantity": 1
+    },
+    {
+      "part_id": "PART-PR-01",
+      "form": "profile",
+      "material_grade": "S275",
+      "thickness_mm": null,
+      "width_mm": null,
+      "length_mm": 1800,
+      "profile_family": "RHS-100x50",
+      "project_id": "P-101",
+      "revision_status": "released",
+      "traceable_spec": true,
+      "quantity": 1
+    },
+    {
+      "part_id": "PART-PL-03",
+      "form": "plate",
+      "material_grade": "S355",
+      "thickness_mm": 10,
+      "width_mm": 300,
+      "length_mm": 400,
+      "profile_family": null,
+      "project_id": "P-101",
+      "revision_status": "draft",
+      "traceable_spec": true,
+      "quantity": 1
+    }
+  ]
+}

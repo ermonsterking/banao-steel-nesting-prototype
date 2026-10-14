@@ -1,0 +1,90 @@
+{
+  "case_name": "Synthetic mixed-size rectangular plate batch",
+  "notes": "Invented dimensions for a heuristic demonstration only; not client data or a production benchmark.",
+  "stock": {
+    "width_mm": 1000,
+    "height_mm": 800,
+    "edge_trim_mm": 5,
+    "kerf_mm": 3
+  },
+  "parts": [
+    {
+      "part_id": "P1",
+      "width_mm": 180,
+      "height_mm": 400,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P2",
+      "width_mm": 250,
+      "height_mm": 200,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P3",
+      "width_mm": 500,
+      "height_mm": 150,
+      "allow_rotation": false
+    },
+    {
+      "part_id": "P4",
+      "width_mm": 500,
+      "height_mm": 330,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P5",
+      "width_mm": 400,
+      "height_mm": 280,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P6",
+      "width_mm": 180,
+      "height_mm": 150,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P7",
+      "width_mm": 250,
+      "height_mm": 330,
+      "allow_rotation": false
+    },
+    {
+      "part_id": "P8",
+      "width_mm": 180,
+      "height_mm": 330,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P9",
+      "width_mm": 500,
+      "height_mm": 380,
+      "allow_rotation": false
+    },
+    {
+      "part_id": "P10",
+      "width_mm": 380,
+      "height_mm": 280,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P11",
+      "width_mm": 350,
+      "height_mm": 350,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P12",
+      "width_mm": 550,
+      "height_mm": 500,
+      "allow_rotation": true
+    },
+    {
+      "part_id": "P13",
+      "width_mm": 550,
+      "height_mm": 450,
+      "allow_rotation": true
+    }
+  ]
+}
